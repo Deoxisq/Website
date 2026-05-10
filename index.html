@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andres Lopez — Computer Science student, iOS developer, builder."
+    />
+    <title>Andres Lopez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrap hero__grid">
+          <div class="hero__intro">
+            <p class="eyebrow">Houston, TX - New York City</p>
+            <h1 class="hero__title">
+              <span class="hero__name">Andres Lopez</span>
+              <span class="hero__role"
+                >Computer Science · iOS · systems-minded builder</span
+              >
+            </h1>
+            <p class="hero__lede">
+              Transferring to NYIT (Fall 2026). I ship real software—currently
+              maintaining a live App Store product—and I like the long arc from
+              idea to polish.
+            </p>
+            <ul class="hero__links">
+              <li>
+                <a href="mailto:your.email@example.com">Email</a>
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com/in/andres-lopez-109033337"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Deoxisq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+          <aside class="hero__meta" aria-label="Quick facts">
+            <div class="card card--tight">
+              <p class="card__label">Now</p>
+              <p class="card__value">Building · studying · shipping</p>
+            </div>
+            <div class="card card--tight">
+              <p class="card__label">Education</p>
+              <p class="card__value">
+                A.S. Computer Science, Houston City College · NYIT B.S. (Fall
+                2026)
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="age" class="age-section section" aria-labelledby="age-heading">
+        <div class="wrap">
+          <h2 id="age-heading" class="visually-hidden">Live age</h2>
+          <p class="age-line" role="status" aria-live="polite">
+            <span class="age-line__prefix">I am</span>
+            <output class="age-line__value mono" id="age-decimal">--</output>
+          </p>
+        </div>
+      </section>
+
+      <section id="work" class="section section--border">
+        <div class="wrap">
+          <div class="section__head">
+            <h2 class="section__title">Experience</h2>
+          </div>
+          <article class="timeline-item">
+            <header class="timeline-item__head">
+              <h3 class="timeline-item__title">Barista</h3>
+              <p class="timeline-item__meta">
+                Slowpokes Coffee · Houston, TX · Feb 2026 – Present
+              </p>
+            </header>
+            <ul class="bullets">
+              <li>
+                Fast, accurate service in a high-volume specialty coffee
+                environment—register, drink build, and peak-rush flow.
+              </li>
+              <li>
+                Bilingual rapport (English / Spanish); bar, equipment, and
+                inventory standards across shifts.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="wrap">
+          <div class="section__head">
+            <h2 class="section__title">Projects</h2>
+            <p class="section__sub">
+              Selected work from the resume—expand here anytime.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card card">
+              <h3 class="project-card__title">CoordinaApp</h3>
+              <p class="project-card__tag mono">
+                Published iOS · Swift · Firebase · Xcode · App Store Connect ·
+                2024 – Present
+              </p>
+              <ul class="bullets bullets--compact">
+                <li>
+                  Co-developed and shipped a live travel-planning app (iPhone,
+                  iPad, Mac, Vision Pro): itineraries, packing lists, group
+                  budgets, shared albums.
+                </li>
+                <li>
+                  Real-time multi-user sync (Auth, Firestore, Storage); invite
+                  codes for shared trips.
+                </li>
+                <li>
+                  Freemium + three IAP tiers (StoreKit); full App Store Connect
+                  pipeline; v1.0–v1.02 post-launch releases.
+                </li>
+              </ul>
+            </article>
+
+            <article class="project-card card">
+              <h3 class="project-card__title">AI Humanizer Web Platform</h3>
+              <p class="project-card__tag mono">
+                In development · HTML · JavaScript · Claude API · Firebase ·
+                2025 – Present
+              </p>
+              <ul class="bullets bullets--compact">
+                <li>
+                  Multi-tool web app centered on AI text humanizer; strong
+                  detection benchmarks in testing (per resume targets).
+                </li>
+                <li>
+                  Anthropic Claude API backend; planning migration to local LLM
+                  on Jetson Nano.
+                </li>
+                <li>
+                  Roadmap of 14 tools on shared front-end and auth layer.
+                </li>
+              </ul>
+            </article>
+
+            <article class="project-card card">
+              <h3 class="project-card__title">S.L.A.P.</h3>
+              <p class="project-card__tag mono">
+                Student Local Adaptation Program · Fall 2024
+              </p>
+              <ul class="bullets bullets--compact">
+                <li>
+                  First place, Business Innovation — TiE U Global Hackathon
+                  (1,250+ students, 20 countries).
+                </li>
+                <li>
+                  Platform concept: student freelancers ↔ small businesses;
+                  logo, brand, full UI mockups, pitch.
+                </li>
+                <li>
+                  Travel award; represented Houston City College at TiE Global
+                  Summit in India.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--border">
+        <div class="wrap two-col">
+          <div>
+            <div class="section__head section__head--left">
+              <h2 class="section__title">Education</h2>
+            </div>
+            <article class="stack-block">
+              <h3 class="stack-block__title">New York Institute of Technology</h3>
+              <p class="stack-block__meta mono">
+                Starting Fall 2026 · B.S. Computer Science (Transfer) · Expected
+                May 2028
+              </p>
+            </article>
+            <article class="stack-block">
+              <h3 class="stack-block__title">Houston City College</h3>
+              <p class="stack-block__meta mono">
+                Associate of Science, Computer Science · GPA 3.8 · Aug 2024 –
+                Aug 2026
+              </p>
+              <ul class="bullets bullets--compact">
+                <li>
+                  Coursework: Programming Fundamentals I &amp; II (C++).
+                </li>
+                <li>Honors: Phi Theta Kappa (Fall 2025).</li>
+              </ul>
+            </article>
+          </div>
+          <div>
+            <div class="section__head section__head--left">
+              <h2 class="section__title">Leadership &amp; activities</h2>
+            </div>
+            <ul class="plain-list">
+              <li>
+                <strong>Phi Theta Kappa</strong> — member, Fall 2025 – Present
+                (HCC).
+              </li>
+            </ul>
+            <div class="section__head section__head--left section__head--spaced">
+              <h2 class="section__title">Technical skills</h2>
+            </div>
+            <dl class="skill-dl">
+              <div>
+                <dt>Languages</dt>
+                <dd>C++, Python, Swift, JavaScript, HTML/CSS</dd>
+              </div>
+              <div>
+                <dt>Frameworks &amp; APIs</dt>
+                <dd>
+                  Firebase (Auth, Firestore, Storage), Anthropic Claude API,
+                  StoreKit, App Store Connect
+                </dd>
+              </div>
+              <div>
+                <dt>Tools</dt>
+                <dd>
+                  Git, GitHub, VS Code, Xcode, Cursor, Claude Code, Arch Linux,
+                  macOS
+                </dd>
+              </div>
+              <div>
+                <dt>Spoken</dt>
+                <dd>English &amp; Spanish (both native)</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--footer-cta">
+        <div class="wrap contact-block">
+          <h2 class="section__title">Contact</h2>
+          <p class="contact-block__text">
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <span class="contact-block__sep">&middot;</span>
+            <a href="tel:+10000000000">000-000-0000</a>
+          </p>
+          <p class="contact-block__fine mono">
+            Built as static HTML/CSS/JS—fork and extend freely.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__inner mono">
+        <span>&copy; <span id="year"></span> Andres Lopez</span>
+        <span class="site-footer__right">Houston &middot; NYIT (Fall 2026)</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
