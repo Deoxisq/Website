@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Andres Lopez — builder, student, and work log author."
+    />
+    <title>About — Andres Lopez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="aquarium" class="aquarium" aria-hidden="true"></canvas>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="site-header__brand" href="index.html">Andres Lopez</a>
+        <nav class="site-header__nav" aria-label="Primary">
+          <a href="index.html#posts">Posts</a>
+          <a href="about.html" aria-current="page">About</a>
+          <a href="mailto:your.email@example.com">Email</a>
+          <a
+            href="https://github.com/Deoxisq"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="post-page">
+      <article class="wrap post-article">
+        <header class="post-header">
+          <p class="eyebrow">About</p>
+          <h1 class="post-header__title">Hey, I'm Andres.</h1>
+        </header>
+
+        <div class="post-body">
+          <p>
+            I'm a computer science student based in Houston, transferring to NYIT
+            in Fall 2026. I like building things that actually ship—not just
+            mockups—and I'm usually juggling school, side projects, and whatever
+            app I'm maintaining on the App Store.
+          </p>
+          <p>
+            Most of what I work on sits at the intersection of mobile and web: iOS
+            apps with Swift and Firebase, web tools with plain HTML/JS, and lately
+            AI-backed platforms where the hard part isn't the model—it's the
+            product around it.
+          </p>
+
+          <h2>What I'm into right now</h2>
+          <ul>
+            <li>Shipping and maintaining CoordinaApp on the App Store</li>
+            <li>Building out an AI humanizer / multi-tool web platform</li>
+            <li>Prepping for the move to NYC and NYIT</li>
+            <li>This site—ASCII fish included</li>
+          </ul>
+
+          <h2>Background</h2>
+          <p>
+            I grew up bilingual (English and Spanish) and picked up programming
+            through Houston City College, where I'm finishing my A.S. in Computer
+            Science. I've done hackathons, won a TiE U pitch competition, and
+            learned early that presenting an idea clearly matters as much as
+            writing the code.
+          </p>
+          <p>
+            Outside of code: coffee shifts, long walks thinking through bugs, and
+            the occasional deep dive into Linux tooling. I'm the kind of person
+            who will rewrite something three times if the first version doesn't
+            feel right.
+          </p>
+
+          <h2>Find me</h2>
+          <p>
+            <a href="mailto:your.email@example.com">your.email@example.com</a
+            ><br />
+            <a
+              href="https://linkedin.com/in/andres-lopez-109033337"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            ·
+            <a
+              href="https://github.com/Deoxisq"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__inner mono">
+        <span>&copy; <span id="year"></span> Andres Lopez</span>
+        <span class="site-footer__right">Houston → NYC</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

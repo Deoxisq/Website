@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI humanizer platform — where it's at — Andres Lopez work log."
+    />
+    <title>AI humanizer platform — where it's at — Andres Lopez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <canvas id="aquarium" class="aquarium" aria-hidden="true"></canvas>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="site-header__brand" href="../index.html">Andres Lopez</a>
+        <nav class="site-header__nav" aria-label="Primary">
+          <a href="../index.html#posts">Posts</a>
+          <a href="../about.html">About</a>
+          <a href="mailto:your.email@example.com">Email</a>
+          <a
+            href="https://github.com/Deoxisq"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="post-page">
+      <article class="wrap post-article">
+        <a class="post-back mono" href="../index.html">← All posts</a>
+        <header class="post-header">
+          <div class="post-preview__head">
+            <time class="post-preview__date mono" datetime="2025-11-15"
+              >Nov 2025</time
+            >
+            <span class="post-preview__tag mono">AI tools</span>
+          </div>
+          <h1 class="post-header__title">AI humanizer platform — where it's at</h1>
+        </header>
+
+        <div class="post-body">
+          <p>
+            Working on a multi-tool web platform centered on an AI text humanizer.
+            Stack is plain HTML/JS on the front, Firebase for auth, and the
+            Anthropic Claude API on the backend.
+          </p>
+          <h2>Status</h2>
+          <ul>
+            <li>Core humanizer flow works end to end</li>
+            <li>Detection benchmarks in testing look strong so far</li>
+            <li>Shared front-end shell designed for 14 planned tools</li>
+            <li>Auth layer still being tightened before a wider rollout</li>
+          </ul>
+          <h2>What's next</h2>
+          <p>
+            Two threads I'm thinking about: finishing the tool roadmap on one
+            shared codebase, and eventually migrating inference to a local LLM on
+            a Jetson Nano so we're less API-dependent. Neither is done yet—this
+            post is the checkpoint.
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__inner mono">
+        <span>&copy; <span id="year"></span> Andres Lopez</span>
+        <span class="site-footer__right">Houston → NYC</span>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
