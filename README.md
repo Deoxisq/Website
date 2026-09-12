@@ -5,14 +5,15 @@ Personal blog for progress updates on projects, school, and side builds. Static 
 ## Run locally
 
 ```bash
-python3 -m http.server 8080
+npm install
+npm start
 ```
 
 Then visit `http://localhost:8080`.
 
 ## Add a post
 
-1. Copy `posts/ai-humanizer-wip.html`.
+1. Copy `posts/hackathon-anniversary.html`.
 2. Rename it and edit the title, date, tag, and body.
 3. Add a preview card to the feed in `index.html` under `.post-feed`.
 
